@@ -14,7 +14,8 @@ Create an array called `fruits` that contains:
 - "Orange"
 
 ```javascript
-// your code here
+const fruits = ["Apple", "Banana", "Orange"]
+console.log(fruits)
 ```
 
 ---
@@ -25,6 +26,10 @@ Print the first and the last element of the `fruits` array.
 
 ```javascript
 // your code here
+let firstFruit = fruits[0]
+let lastFruit = fruits[fruits.length - 1]
+console.log(firstFruit)
+console.log(lastFruit)
 ```
 
 ---
@@ -34,7 +39,8 @@ Print the first and the last element of the `fruits` array.
 Add `"Mango"` to the end of `fruits`.
 
 ```javascript
-// your code here
+fruits.push("Mango")
+console.log(fruits)
 ```
 
 ---
@@ -44,7 +50,8 @@ Add `"Mango"` to the end of `fruits`.
 Add `"Grape"` to the beginning of `fruits`.
 
 ```javascript
-// your code here
+fruits.unshift("Grapes")
+console.log(fruits)
 ```
 
 ---
@@ -54,7 +61,8 @@ Add `"Grape"` to the beginning of `fruits`.
 Remove the last element from `fruits`.
 
 ```javascript
-// your code here
+fruits.pop()
+console.log(fruits)
 ```
 
 ---
@@ -64,7 +72,8 @@ Remove the last element from `fruits`.
 Remove the first element from `fruits`.
 
 ```javascript
-// your code here
+fruits.shift()
+console.log(fruits)
 ```
 
 ---
@@ -74,7 +83,7 @@ Remove the first element from `fruits`.
 Print how many items are in the `fruits` array.
 
 ```javascript
-// your code here
+console.log(fruits.length)
 ```
 
 ---
@@ -86,7 +95,7 @@ Check if `"Banana"` exists in the `fruits` array.
 Expected output → `true` or `false`
 
 ```javascript
-// your code here
+console.log(fruits.includes("Banana"))
 ```
 
 ---
@@ -96,7 +105,7 @@ Expected output → `true` or `false`
 Find the index of `"Orange"` in the `fruits` array.
 
 ```javascript
-// your code here
+console.log(fruits.indexOf("Orange"))
 ```
 
 ---
@@ -108,7 +117,7 @@ Convert the `fruits` array to a single string separated by commas.
 Example output → `"Apple,Banana,Orange"`
 
 ```javascript
-// your code here
+console.log(fruits.toString())
 ```
 
 ---
