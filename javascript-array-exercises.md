@@ -83,6 +83,7 @@ console.log(fruits)
 Print how many items are in the `fruits` array.
 
 ```javascript
+fruits.length
 console.log(fruits.length)
 ```
 
@@ -95,6 +96,7 @@ Check if `"Banana"` exists in the `fruits` array.
 Expected output → `true` or `false`
 
 ```javascript
+fruits.includes("Banana")
 console.log(fruits.includes("Banana"))
 ```
 
